@@ -1,0 +1,39 @@
+.calendar-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+    .calendar-container{
+        width: 30%;
+    }
+    .fc-toolbar {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .fc-header-toolbar {
+        font-size: 0.9rem;
+    }
+
+    .fc-daygrid-event {
+        font-size: 0.8rem;
+    }
+
+    .fc-col-header-cell {
+        font-size: 0.8rem;
+    }
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .fc-toolbar-title {
+        font-size: 1rem;
+    }
+
+    .fc-header-toolbar {
+        flex-direction: column;
+    }
+}

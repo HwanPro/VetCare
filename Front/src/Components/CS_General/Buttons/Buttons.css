@@ -1,0 +1,25 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.material-symbols-outlined {
+    display: flex;
+    align-items: center;
+}
+
+.btn.text+icon span:first-of-type {
+    order: 2; 
+}
+
+.btn.icon+text span:first-of-type {
+    order: 1; 
+}
+
+.btn.text+icon span:last-of-type {
+    order: 3;
+}

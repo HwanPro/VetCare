@@ -1,0 +1,63 @@
+
+/* Modals */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    max-width: 90%;
+    text-align: center;
+}
+.contenido-agenda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.full-calendar{
+    width: 800px;
+}
+/* Layout Content */
+.Layout {
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: margin-left 0.3s ease;
+}
+
+.Content_Layout {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.content-appointment-card{
+    display: flex;
+}
+
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%; /* Se ajusta para ocupar el 90% del ancho disponible */
+        padding: 15px; /* Reduce el padding para pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content{
+        width: 100%;  /* Padding mínimo en móviles */
+        font-size: 0.9rem; /* Reduce ligeramente el tamaño del texto */
+    }
+}

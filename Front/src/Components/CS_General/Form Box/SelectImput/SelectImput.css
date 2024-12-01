@@ -1,0 +1,42 @@
+.form-group {
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: #666;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+@media (max-width: 600px) {
+    .form-group {
+        margin-bottom: 0.8rem;
+    }
+    .form-group label {
+        font-size: 0.9rem;
+    }
+    .form-group select {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+}

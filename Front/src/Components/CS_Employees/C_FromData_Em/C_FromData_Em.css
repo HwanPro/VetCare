@@ -1,0 +1,7 @@
+.contentFromData{
+    display: flex;
+    justify-content: center;
+}
+.contentData{
+    width: 80%;
+}

@@ -1,0 +1,18 @@
+:root {
+  --color-fondo-sidebar: #224757;
+  --sidebar-collapsed-width: 70px; /* Ancho reducido del aside */
+  --sidebar-expanded-width: 300px; /* Ancho normal del aside */
+}
+
+/* Ajustes generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}

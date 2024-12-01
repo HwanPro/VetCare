@@ -1,0 +1,26 @@
+.form-group {
+    text-align: left;  
+    box-sizing: border-box;
+    margin-bottom: 6px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: #666;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .form-group  {
+        margin-bottom: 0px !important;
+        border: 0;
+    }
+}

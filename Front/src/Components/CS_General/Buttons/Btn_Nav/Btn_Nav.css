@@ -1,0 +1,30 @@
+.nav-button {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background: none;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-button .material-symbols-outlined {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+    .nav-button {
+        font-size: 0;
+        justify-content: center;
+    }
+
+    .nav-button span {
+        margin-right: 0;
+    }
+}

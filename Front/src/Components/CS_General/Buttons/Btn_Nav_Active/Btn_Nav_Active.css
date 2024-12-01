@@ -1,0 +1,23 @@
+.nav-button {
+    font-family: "Poppins", sans-serif;
+    background: none;
+    border: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.img-active {
+    padding-left: 5px;
+    color: black;
+}
+
+@media (max-width: 800px) {
+    .nav-button {
+        font-size: 0;
+    }
+
+    .img-active {
+        margin-right: 0;
+    }
+}

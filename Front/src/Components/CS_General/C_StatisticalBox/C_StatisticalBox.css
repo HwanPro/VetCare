@@ -1,0 +1,33 @@
+.Estadistica{
+    background-color: #77B0C1;
+    width:361px ;
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TitleStatistical{
+    font-size: 24px;
+    font-family: "Newsreader";
+    font-weight: 600;
+    color: #005E7B;
+}
+.NumberStatistical{
+    font-size: 20px;
+    font-family: "Newsreader";
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .Estadistica{
+        width:150px ;
+        height: 85px;
+    }
+    .NumberStatistical{
+        margin-top: 0px;
+    }
+}

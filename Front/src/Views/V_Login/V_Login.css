@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.V_login {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.login-card {
+    background-color: #F9F9F9;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    max-width: 90%;
+}
+
+.login-title {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #333;
+    font-family: "Neuton", serif;
+    text-align: center;
+}
+
+.login-form {
+    margin-top: 16px;
+}
+
+.login-form-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.login-form-group label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.login-submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2C2C2C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-submit-btn:hover {
+    background-color: #1a1a1a;
+}
+
+.login-register-link {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.login-register-link a {
+    color: #2C2C2C;
+    text-decoration: underline;
+}

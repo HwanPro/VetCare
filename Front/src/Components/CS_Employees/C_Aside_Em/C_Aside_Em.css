@@ -1,0 +1,26 @@
+
+.sidebar{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: var(--color-fondo-sidebar);
+    border-right: 10px solid var(--color-fondo-sidebar) ;
+}
+.sidebar .nav{
+    list-style: none;
+    margin-top: 20px;
+    padding-left:13px;
+    flex-direction: column;
+}
+
+.material-symbols-outlined {
+    color: rgb(255, 255, 255); 
+}
+
+.nav .option-nav {
+    display: flex;
+    align-items: center;
+}
+
